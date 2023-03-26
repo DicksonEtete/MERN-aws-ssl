@@ -216,5 +216,5 @@ Add a new script to package.json and save:
 }
 ```
 
-In terminal, run `npm run build:prod`. Copy the build files and upload them to both S3 buckets after emptying both buckets.  
+In terminal, run `npm run build:prod`. Add `.env` file to .gitignore. Copy the build files and upload them to both S3 buckets after emptying both buckets.  
 The frontend (client-side) has been updated and connected to the backend (server-side).
