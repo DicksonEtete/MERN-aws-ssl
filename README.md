@@ -56,7 +56,7 @@ Go to Route53, select the Hosted Zone and select _Create Record Set_. Then input
 
 ## Provision and connect to an EC2 instance for backend
 
-Access EC2 from the AWS console and select _Launch Instance_. Select AMI (Amazon Linux AMI in this demo), Instance type, add Storage, create or use a Security Group with the following Inbound Traffic rules:
+Access EC2 from the AWS console and select _Launch Instance_. Select AMI (Amazon Linux AMI), Instance type, add Storage, create or use a Security Group with the following Inbound Traffic rules:
 - Type: SSH, Protocol: TCP & Port: 22 (to connect to Instance)
 - Type: HTTP, Protocol: TCP & Port: 80 (to allow http requests from anywhere)
 - Type: HTTPS, Protocol: TCP & Port: 443 (to allow https)
