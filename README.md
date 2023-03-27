@@ -92,6 +92,8 @@ Verify installations:
 Install Nginx:
 
     sudo yum install nginx -y
+    
+Note: The app is integrated with nodemon to keep it running continously, even when there's a change/update to the code, so nodemon or PM2 need not be installed on the server.
 
 Set up Firewall rules to allow SSH and HTTP/HTTPS connections:
 
