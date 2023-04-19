@@ -147,7 +147,7 @@ key ID_ and _Secret access key_.
 
 ### Install AWS cli on EC2 instance for Certbot
 
-Install AWS cli and run it:
+Install AWS cli:
 
     sudo yum install awscli -y
 
