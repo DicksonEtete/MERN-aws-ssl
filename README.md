@@ -151,7 +151,7 @@ Install AWS cli and run it:
 
     sudo yum install awscli -y
 
-Create an IAMReadAccess role and assign it to the instance for AWS cli.
+Create an IAMReadOnlyAccess role and assign it to the instance for AWS cli.
 
 Run command and copy the output (hosted zone):
 
